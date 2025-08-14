@@ -7,13 +7,13 @@ export default function Hero() {
         <div className="text-center">
           <div className="mb-8">
             <img 
-              src="/profile-placeholder.jpg" 
+              src="/Img/profile.jpg" 
               alt="Your Name"
-              className="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-lg"
+              className="w-48 h-48 rounded-full mx-auto mb-6 border-6 border-white shadow-xl object-cover"
             />
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
-            Hi, I'm <span className="text-blue-600">Your Name</span>
+            Hi, I'm <span className="text-blue-600">Rashmika Naveen</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-6">
             Full Stack Developer & UI/UX Designer
