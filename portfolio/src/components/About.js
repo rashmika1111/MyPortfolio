@@ -14,9 +14,9 @@ export default function About() {
           <div>
             <h3 className="text-2xl font-semibold mb-4">Background & Experience</h3>
             <p className="text-gray-600 mb-4">
-              I'm a passionate Full Stack Developer and tech enthusiast with a B.Sc. in 
+              I&apos;m a passionate Full Stack Developer and tech enthusiast with a B.Sc. in 
               Information Technology. I began working on projects during my 2nd year at university, 
-              and since then I’ve built a strong foundation in web and mobile application development.
+              and since then I&apos;ve built a strong foundation in web and mobile application development.
             </p>
             <p className="text-gray-600 mb-4">
               Over the years, I have completed several academic and personal projects, 

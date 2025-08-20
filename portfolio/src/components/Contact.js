@@ -8,7 +8,7 @@ export default function Contact() {
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
           <div className="w-20 h-1 bg-blue-600 mx-auto"></div>
           <p className="mt-4 text-lg text-gray-600">
-            Ready to bring your ideas to life? Let's connect!
+            Ready to bring your ideas to life? Let&apos;s connect!
           </p>
         </div>
         

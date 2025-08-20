@@ -13,8 +13,8 @@ const projects = [
   ),
   image: "grouppj.jpg",
   technologies: ["Node.js", "Express", "MongoDB", "React", "JavaScript"],
-  github: "https://github.com/TrackNGo/frontend", // frontend
-  backendGithub: "https://github.com/TrackNGo/backend", // backend
+  github: "https://github.com/TrackNGo/frontend",
+  backendGithub: "https://github.com/TrackNGo/backend",
   linkedin: "https://www.linkedin.com/posts/rashmika-naveen-70952b237_innovation-publictransport-webdevelopment-activity-7318842778824622082-ymf5?utm_source=share&utm_medium=member_android&rcm=ACoAADr9HDkBUZghVpxC4WXPqPC1rlrzT5YpjIg",
   featured: true
 },
@@ -31,7 +31,7 @@ const projects = [
   image: "/boad.jpg",
   technologies: ["React Native"],
   github: "https://github.com/rashmika1111/BoadinApp",
-  linkedin: "https://www.linkedin.com/posts/rashmika-naveen-70952b237_reactnative-mobiledevelopment-frontenddevelopment-activity-7302588350018854913-rQQP?utm_source=share&utm_medium=member_android&rcm=ACoAADr9HDkBUZghVpxC4WXPqPC1rlrzT5YpjIghttpshttps://www.linkedin.com/posts/rashmika-naveen-70952b237_reactnative-mobiledevelopment-frontenddevelopment-activity-7302588350018854913-rQQP?utm_source=share&utm_medium=member_android&rcm=ACoAADr9HDkBUZghVpxC4WXPqPC1rlrzT5YpjIg://www.linkedin.com/posts/yourusername_boarding-app-demo-activity-987654321",
+  linkedin: "https://www.linkedin.com/posts/rashmika-naveen-70952b237_reactnative-mobiledevelopment-frontenddevelopment-activity-7302588350018854913-rQQP",
   featured: true
 },
 
@@ -87,8 +87,6 @@ const projects = [
   featured: false
 }
 
-
-
 ];
 
 export default function Projects() {
@@ -116,7 +114,7 @@ export default function Projects() {
 
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{project.title}</h3>
-                <p className="text-gray-600 mb-4">{project.description}</p>
+                <div className="text-gray-600 mb-4">{project.description}</div>
 
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech) => (
@@ -130,10 +128,8 @@ export default function Projects() {
                 </div>
 
                 <div className="flex space-x-4">
-                  {/* Conditional rendering for TrackNgo project */}
                   {project.backendGithub ? (
                     <>
-                      {/* Frontend GitHub */}
                       <a 
                         href={project.github} 
                         target="_blank" 
@@ -146,7 +142,6 @@ export default function Projects() {
                         Frontend Code
                       </a>
 
-                      {/* Backend GitHub */}
                       <a 
                         href={project.backendGithub} 
                         target="_blank" 
@@ -160,7 +155,6 @@ export default function Projects() {
                       </a>
                     </>
                   ) : (
-                    // Default: only one GitHub link for other projects
                     <a 
                       href={project.github} 
                       target="_blank" 
@@ -174,7 +168,6 @@ export default function Projects() {
                     </a>
                   )}
 
-                  {/* LinkedIn Post */}
                   <a 
                     href={project.linkedin} 
                     target="_blank" 
