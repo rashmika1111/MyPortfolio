@@ -4,34 +4,36 @@ const skills = [
   {
     category: "Frontend",
     items: [
-      { name: "React", level: 90 },
-      { name: "Next.js", level: 85 },
-      { name: "JavaScript", level: 95 },
-      { name: "TypeScript", level: 80 },
-      { name: "Tailwind CSS", level: 90 },
-      { name: "HTML/CSS", level: 95 }
+      { name: "React", level: 80 },
+      { name: "Next.js", level: 70 },
+      { name: "JavaScript", level: 80 },
+      { name: "TypeScript", level: 40 },
+      { name: "Tailwind CSS", level: 60 },
+      { name: "HTML/CSS", level: 90 },
     ]
   },
   {
-    category: "Backend",
+    category: "Backend / Programming",
     items: [
-      { name: "Node.js", level: 85 },
+      { name: "Node.js", level: 80 },
       { name: "Express", level: 80 },
-      { name: "Python", level: 75 },
-      { name: "Django", level: 70 },
-      { name: "PostgreSQL", level: 80 },
-      { name: "MongoDB", level: 85 }
+      { name: "Python", level: 60 },
+      { name: "MySQL", level: 90 },
+      { name: "MongoDB", level: 85 },
+       { name: "PHP", level: 40 },
+      { name: "C", level: 70 },
+      { name: "C++", level: 75 },
+      { name: "C#", level: 65 },
     ]
   },
   {
     category: "Tools & Others",
     items: [
-      { name: "Git", level: 90 },
-      { name: "Docker", level: 75 },
-      { name: "AWS", level: 70 },
-      { name: "Figma", level: 85 },
+      { name: "Git", level: 70 },
+      { name: "AWS", level: 25 },
+      { name: "Figma", level: 60 },
       { name: "VS Code", level: 95 },
-      { name: "Linux", level: 80 }
+      { name: "OOP", level: 85 },
     ]
   }
 ];

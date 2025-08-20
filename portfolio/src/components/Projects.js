@@ -1,46 +1,94 @@
 'use client';
 
 const projects = [
-  {
-    id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce platform with user authentication, payment processing, and admin dashboard.",
-    image: "/project1.jpg",
-    technologies: ["Next.js", "Stripe", "PostgreSQL", "Tailwind CSS"],
-    github: "https://github.com/yourusername/ecommerce-platform",
-    demo: "https://your-ecommerce-demo.vercel.app",
-    featured: true
-  },
-  {
-    id: 2,
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates and team collaboration features.",
-    image: "/project2.jpg",
-    technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
-    github: "https://github.com/yourusername/task-manager",
-    demo: "https://your-task-manager.vercel.app",
-    featured: true
-  },
-  {
-    id: 3,
-    title: "Weather Dashboard",
-    description: "A responsive weather application with location-based forecasts and interactive charts.",
-    image: "/project3.jpg",
-    technologies: ["React", "OpenWeather API", "Chart.js", "CSS"],
-    github: "https://github.com/yourusername/weather-dashboard",
-    demo: "https://your-weather-app.vercel.app",
-    featured: false
-  },
-  {
-    id: 4,
-    title: "Portfolio Website",
-    description: "A modern, responsive portfolio website built with Next.js and Tailwind CSS.",
-    image: "/project4.jpg",
-    technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/yourusername/portfolio",
-    demo: "https://your-portfolio.vercel.app",
-    featured: false
-  }
+ {
+  id: 1,
+  title: "TrackNgo - Final Year Group Project 2025",
+  description: (
+    <>
+      <p><strong>Contribution:</strong> Led the design and development of the Lost and Found subsystem using MVC. Contributed to requirement analysis, system design, and assisted in debugging across the project.</p>
+    
+      <p><strong>Supervisor:</strong> K. Madanaharan, Lecturer, University of Vavuniya</p>
+    </>
+  ),
+  image: "grouppj.jpg",
+  technologies: ["Node.js", "Express", "MongoDB", "React", "JavaScript"],
+  github: "https://github.com/TrackNGo/frontend", // frontend
+  backendGithub: "https://github.com/TrackNGo/backend", // backend
+  linkedin: "https://www.linkedin.com/posts/rashmika-naveen-70952b237_innovation-publictransport-webdevelopment-activity-7318842778824622082-ymf5?utm_source=share&utm_medium=member_android&rcm=ACoAADr9HDkBUZghVpxC4WXPqPC1rlrzT5YpjIg",
+  featured: true
+},
+{
+  id: 2,
+  title: "Boarding App - Solo Project 2024",
+  description: (
+    <>
+      <p><strong>Overview:</strong> A mobile application built to address the challenge of finding boarding accommodations in rural and semi-urban areas like Vavuniya, where my faculty is located.</p>
+      <p><strong>Technologies:</strong> React Native</p>
+      <p><strong>Contribution:</strong> Fully designed and developed the entire application independently, using LocalData. This was my first mobile app development project from start to finish.</p>
+    </>
+  ),
+  image: "/boad.jpg",
+  technologies: ["React Native"],
+  github: "https://github.com/rashmika1111/BoadinApp",
+  linkedin: "https://www.linkedin.com/posts/rashmika-naveen-70952b237_reactnative-mobiledevelopment-frontenddevelopment-activity-7302588350018854913-rQQP?utm_source=share&utm_medium=member_android&rcm=ACoAADr9HDkBUZghVpxC4WXPqPC1rlrzT5YpjIghttpshttps://www.linkedin.com/posts/rashmika-naveen-70952b237_reactnative-mobiledevelopment-frontenddevelopment-activity-7302588350018854913-rQQP?utm_source=share&utm_medium=member_android&rcm=ACoAADr9HDkBUZghVpxC4WXPqPC1rlrzT5YpjIg://www.linkedin.com/posts/yourusername_boarding-app-demo-activity-987654321",
+  featured: true
+},
+
+{
+  id: 3,
+  title: "Rent It - E-Commerce Site (University Project Jan 2025)",
+  description: (
+    <>
+      <p><strong>Overview:</strong> An advanced web application for finding and renting boarding accommodations, developed as a continuation of my mobile Boarding App. Aimed at solving accommodation issues in areas like Vavuniya.</p>
+      <p><strong>Technologies:</strong> Next.js, Spring Boot, MySQL</p>
+      <p><strong>Contribution:</strong> Independently designed and developed the complete system, including both frontend and backend functionalities.</p>
+    </>
+  ),
+  image: "/rent.png",
+  technologies: ["Next.js", "Spring Boot", "MySQL"],
+  github: "https://github.com/rashmika1111/Rent-It-E-commerce-project",
+  featured: false
+},
+
+{
+  id: 4,
+  title: "Fresh Farm - Food Selling Platform (2nd Year Project 2024)",
+  description: (
+    <>
+      <p><strong>Overview:</strong> A platform that connects local farmers directly with customers, eliminating intermediaries and promoting fair, fresh produce distribution.</p>
+      <p><strong>Technologies:</strong> React, Node.js, Express.js, MongoDB</p>
+      <p><strong>Contribution:</strong> Entire project designed and developed individually as my first pilot project using the MERN stack.</p>
+      <p><strong>Supervisor:</strong> S. Gopinath, Instructor, University of Vavuniya</p>
+    </>
+  ),
+  image: "/fresh.png",
+  technologies: ["React", "Node.js", "Express.js", "MongoDB"],
+  github: "https://github.com/SGopinath89/IT22342024FreshFarm",
+  linkedin: "https://www.linkedin.com/posts/rashmika-naveen-70952b237_my-pilot-mern-project-implementing-simple-activity-7212894091691376640-_vlQ",
+  featured: false
+},
+
+{
+  id: 5,
+  title: "Attendance Tracking System - University Group Project (2023)",
+  description: (
+    <>
+      <p><strong>Overview:</strong> A web-based system developed to track student attendance efficiently at the university level.</p>
+      <p><strong>Technologies:</strong> HTML, CSS, PHP</p>
+      <p><strong>Contribution:</strong> Worked as a team member and was responsible for implementing the Add Attendance and Logout functionalities.</p>
+      <p><strong>Project Type:</strong> University Group Project - 2023</p>
+    </>
+  ),
+  image: "/ats.png",
+  technologies: ["HTML", "CSS", "PHP"],
+  github: "https://github.com/SavinduRashmika2000/Attendance_Tracking_System",
+  linkedin: "",
+  featured: false
+}
+
+
+
 ];
 
 export default function Projects() {
@@ -54,7 +102,7 @@ export default function Projects() {
             Here are some of my recent projects
           </p>
         </div>
-        
+
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project) => (
             <div key={project.id} className="bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition duration-300">
@@ -65,11 +113,11 @@ export default function Projects() {
                   className="w-full h-48 object-cover rounded-t-lg"
                 />
               </div>
-              
+
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{project.title}</h3>
                 <p className="text-gray-600 mb-4">{project.description}</p>
-                
+
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech) => (
                     <span 
@@ -80,29 +128,63 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
-                
+
                 <div className="flex space-x-4">
+                  {/* Conditional rendering for TrackNgo project */}
+                  {project.backendGithub ? (
+                    <>
+                      {/* Frontend GitHub */}
+                      <a 
+                        href={project.github} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="flex items-center text-gray-600 hover:text-gray-900"
+                      >
+                        <svg className="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z" clipRule="evenodd" />
+                        </svg>
+                        Frontend Code
+                      </a>
+
+                      {/* Backend GitHub */}
+                      <a 
+                        href={project.backendGithub} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="flex items-center text-gray-600 hover:text-gray-900"
+                      >
+                        <svg className="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z" clipRule="evenodd" />
+                        </svg>
+                        Backend Code
+                      </a>
+                    </>
+                  ) : (
+                    // Default: only one GitHub link for other projects
+                    <a 
+                      href={project.github} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="flex items-center text-gray-600 hover:text-gray-900"
+                    >
+                      <svg className="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z" clipRule="evenodd" />
+                      </svg>
+                      Code
+                    </a>
+                  )}
+
+                  {/* LinkedIn Post */}
                   <a 
-                    href={project.github} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="flex items-center text-gray-600 hover:text-gray-900"
-                  >
-                    <svg className="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z" clipRule="evenodd" />
-                    </svg>
-                    Code
-                  </a>
-                  <a 
-                    href={project.demo} 
+                    href={project.linkedin} 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center text-blue-600 hover:text-blue-800"
                   >
-                    <svg className="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    <svg className="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M19 0h-14c-2.761 0-5 2.238-5 5v14c0 2.762 2.239 5 5 5h14c2.762 0 5-2.238 5-5v-14c0-2.762-2.238-5-5-5zM7 20h-3v-11h3v11zM5.5 7.5c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zM20 20h-3v-5.5c0-1.381-1.119-2.5-2.5-2.5s-2.5 1.119-2.5 2.5v5.5h-3v-11h3v1.5c.879-1.183 2.462-2.5 4.5-2.5 2.481 0 4.5 2.019 4.5 4.5v7.5z" />
                     </svg>
-                    Live Demo
+                    LinkedIn Post
                   </a>
                 </div>
               </div>

@@ -6,17 +6,17 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <p className="text-gray-400">
-            © 2024 YourName. Built with Next.js & Tailwind CSS
+            © 2024 RashmikaNaveen  Built with Next.js & Tailwind CSS
           </p>
           <div className="flex justify-center space-x-6 mt-4">
-            <a href="https://github.com/yourusername" className="text-gray-400 hover:text-white">
+            <a href="https://github.com/rashmika1111" className="text-gray-400 hover:text-white">
               GitHub
             </a>
-            <a href="https://linkedin.com/in/yourusername" className="text-gray-400 hover:text-white">
+            <a href="https://www.linkedin.com/in/rashmika-naveen-70952b237/" className="text-gray-400 hover:text-white">
               LinkedIn
             </a>
-            <a href="https://twitter.com/yourusername" className="text-gray-400 hover:text-white">
-              Twitter
+            <a href="https://www.instagram.com/rashimika_naveen?igsh=MTgzZHJnd2k4MnVscg==" className="text-gray-400 hover:text-white">
+              Instagram
             </a>
           </div>
         </div>

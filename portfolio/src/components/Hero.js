@@ -16,11 +16,11 @@ export default function Hero() {
             Hi, I'm <span className="text-blue-600">Rashmika Naveen</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-6">
-            Full Stack Developer & UI/UX Designer
+             Full Stack Developer & Tech Enthusiast
           </p>
           <p className="text-lg text-gray-500 max-w-2xl mx-auto mb-8">
-            I create beautiful, responsive web applications with modern technologies. 
-            Passionate about clean code and user experience.
+           I create beautiful, responsive web applications and mobile apps with modern technologies.  
+           Passionate about clean code, seamless user experience, and integrating AI tools to build smarter solutions.
           </p>
           <div className="flex justify-center space-x-4">
             <a 
@@ -34,6 +34,13 @@ export default function Hero() {
               className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition duration-300"
             >
               Get In Touch
+            </a>
+            <a 
+             href="/rashmika CV.pdf"
+             download
+             className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+            >
+              Download CV
             </a>
           </div>
         </div>
