@@ -34,6 +34,7 @@ const skills = [
       { name: "Figma", level: 60 },
       { name: "VS Code", level: 95 },
       { name: "OOP", level: 85 },
+       { name: "Vercel", level: 50 }
     ]
   }
 ];
