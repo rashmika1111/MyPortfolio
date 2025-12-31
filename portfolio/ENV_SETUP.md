@@ -17,10 +17,11 @@ EMAIL_PASSWORD=your-gmail-app-password-here
 4. After enabling 2-Step Verification, go back to Security
 5. Under "Signing in to Google", click on **App passwords**
 6. Select **Mail** as the app and **Other (Custom name)** as the device
-7. Enter "Portfolio Contact Form" as the name
+7. Enter "Portfolio Contact Form" as the name 
 8. Click **Generate**
 9. Copy the 16-character password (it will look like: `abcd efgh ijkl mnop`)
 10. Paste it in `.env.local` as `EMAIL_PASSWORD` (remove spaces)
+
 
 ## Step 3: Restart Your Dev Server
 
