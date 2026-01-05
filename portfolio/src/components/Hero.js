@@ -36,8 +36,8 @@ export default function Hero() {
               Get In Touch
             </a>
             <a 
-             href="/rashmika CV.pdf"
-             download
+             href="/rashmika Associate.pdf"
+             download="Rashmika_Naveen_CV.pdf"
              className="px-4 py-2 bg-blue-600 dark:bg-blue-500 text-white rounded-lg hover:bg-blue-700 dark:hover:bg-blue-600 transition duration-300"
             >
               Download CV
